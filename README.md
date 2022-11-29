@@ -40,3 +40,5 @@ However, in terms of sales Action genre has the most sales after 2000 and until 
 * North America has almost 49% of the total sales followed by Europe with 27% sales which cleary states that North America and Europe are the largest markets of video game industry.
 
 For detailed explanation with code and visualization, vgsales_analysis.ipynb is to be referred.
+
+####
