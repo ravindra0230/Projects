@@ -1,4 +1,4 @@
-## Observations and Findings
+## Summary
 
 ### About Dataset
 
@@ -24,9 +24,9 @@
 
 ### Screenshots of Dashboard
 
-!(https://github.com/ravindra0230/Projects/blob/main/Supermarket%20Sales/sales_dashboard.png?raw=true)
+![This is an image of sales dashboard](https://github.com/ravindra0230/Projects/blob/main/Supermarket%20Sales/sales_dashboard.png?raw=true)
 
-!(https://github.com/ravindra0230/Projects/blob/main/Supermarket%20Sales/revenue_dashboard.png)
+![This is an image of revenue dashboard](https://github.com/ravindra0230/Projects/blob/main/Supermarket%20Sales/revenue_dashboard.png?raw=true)
 
 ### General Analysis
 
@@ -45,14 +45,14 @@
 
 ### Analysis by customer type in terms of sales
 
-|                | Member             | Normal                                            | Sales       |
-| :------------- | :----------------- | :------------------------------------------------ | :---------- |
-| Product line   | Food and bevereges | Fashion accessories, <br />Electronic accessories | Most sales  |
-| Product line   | Health and beauty  | Home and lifestyle                                | Least sales |
-| Payment method | Credit card        | Ewallet                                           | Most sales  |
-| Payment method | Ewallet            | Credit card                                       | Least sales |
-| Day            | Tuesday            | Saturday                                          | Most sales  |
-| Day            | Monday             | Monday                                            | Least sales |
+|                | Member             | Normal                                           | Sales       |
+| :------------- | :----------------- | :----------------------------------------------- | :---------- |
+| Product line   | Food and bevereges | Fashion accessories,<br />Electronic accessories | Most sales  |
+| Product line   | Health and beauty  | Home and lifestyle                               | Least sales |
+| Payment method | Credit card        | Ewallet                                          | Most sales  |
+| Payment method | Ewallet            | Credit card                                      | Least sales |
+| Day            | Tuesday            | Saturday                                         | Most sales  |
+| Day            | Monday             | Monday                                           | Least sales |
 
 ### Analysis by customer type in terms of revenue
 
