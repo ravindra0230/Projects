@@ -1,33 +1,34 @@
-## Observations and Findings ##
+## Observations and Findings
 
-### About Dataset ###
+### About Dataset
 
 * The Supermarket Sales dataset is taken from kaggle.com.
 * The dataset contains the following columns.
-	- Invoice ID
-	- Branch
-	- City
-	- Customer type
-	- Gender
-	- Product line
-	- Unit Price
-	- Quantity
-	- Tax 5%
-	- Total
-	- Date
-	- Time
-	- Payment
-	- COGS
-	- Gross margin percentage
-	- Gross income
-	- Rating
+  - Invoice ID
+  - Branch
+  - City
+  - Customer type
+  - Gender
+  - Product line
+  - Unit Price
+  - Quantity
+  - Tax 5%
+  - Total
+  - Date
+  - Time
+  - Payment
+  - COGS
+  - Gross margin percentage
+  - Gross income
+  - Rating
 
-### Screenshots of Dashboard ###
+### Screenshots of Dashboard
 
-![This is an image](C:\Users\DELL\Documents\GitHub\Projects\Supermarket Sales\revenue_dashboard)
-![This is an image](C:\Users\DELL\Documents\GitHub\Projects\Supermarket Sales\sales_dashboard)
+!(https://github.com/ravindra0230/Projects/blob/main/Supermarket%20Sales/sales_dashboard.png?raw=true)
 
-### General Analysis ###
+!(https://github.com/ravindra0230/Projects/blob/main/Supermarket%20Sales/revenue_dashboard.png)
+
+### General Analysis
 
 * There are a total of 1000 rows with 1000 invoice ids which represent the total orders as 1000.
 * The total quantity of products sold in these 1000 orders is 5510.
@@ -42,51 +43,48 @@
 * Most used payment method is Ewallet wih 34.5% of the total sales and Cash payments with 34.4% of the total sales followed by Credit card with 31.1% of the total sales.
 * The revenue from Credit card payment is 31.2%, from Cash payments it is 34.7% and by Ewallet it is 34.1%.
 
+### Analysis by customer type in terms of sales
 
-### Analysis by customer type in terms of sales ###
+|                | Member             | Normal                                            | Sales       |
+| :------------- | :----------------- | :------------------------------------------------ | :---------- |
+| Product line   | Food and bevereges | Fashion accessories, <br />Electronic accessories | Most sales  |
+| Product line   | Health and beauty  | Home and lifestyle                                | Least sales |
+| Payment method | Credit card        | Ewallet                                           | Most sales  |
+| Payment method | Ewallet            | Credit card                                       | Least sales |
+| Day            | Tuesday            | Saturday                                          | Most sales  |
+| Day            | Monday             | Monday                                            | Least sales |
 
-	|              | Member         | Normal         | Sales |
-	|:-------------|:---------------|:---------------|:-----------|
-	| Product line | Food and bevereges | Fashion accessories, Electronic accessories | Most sales |
-	| Product line | Health and beauty  | Home and lifestyle | Least sales |
-	| Payment method | Credit card | Ewallet | Most sales |
-	| Payment method | Ewallet | Credit card | Least sales |
-	| Day | Tuesday | Saturday | Most sales |
-	| Day | Monday | Monday | Least sales |
+### Analysis by customer type in terms of revenue
 
-### Analysis by customer type in terms of revenue ###
+|                | Member                 | Normal                 | Revenue         |
+| :------------- | :--------------------- | :--------------------- | :-------------- |
+| Product line   | Food and Bevereges     | Electronic accessories | Highest revenue |
+| Product line   | Electronic accessories | Health and beauty      | Least revenue   |
+| Payment method | Credit card            | Ewallet                | Highest revenue |
+| Payment method | Ewallet                | Credit card            | Least revenue   |
+| Day            | Tuesday                | Saturday               | Highest revenue |
+| Day            | Monday                 | Sunday                 | Least revenue   |
 
-	|              | Member         | Normal         | Revenue |
-	|:-------------|:---------------|:---------------|:-----------|
-	| Product line | Food and Bevereges | Electronic accessories | Highest revenue |
-	| Product line | Electronic accessories  | Health and beauty | Least revenue |
-	| Payment method | Credit card | Ewallet | Highest revenue |
-	| Payment method | Ewallet | Credit card | Least revenue |
-	| Day | Tuesday | Saturday | Highest revenue |
-	| Day | Monday | Sunday | Least revenue |
+### Analysis by gender in terms of sales
 
-### Analysis by gender in terms of sales ###
+|                | Male              | Female              | Sales       |
+| :------------- | :---------------- | :------------------ | :---------- |
+| Product line   | Health and beauty | Fashion accessories | Most sales  |
+| Product line   | Sports and travel | Health and beauty   | Least sales |
+| Payment method | Ewallet           | Cash                | Most sales  |
+| Payment method | Credit card       | Ewallet             | Least sales |
+| Day            | Wednesday         | Saturday            | Most sales  |
+| Day            | Monday            | Thursday            | Least sales |
 
-	|              | Male           | Female         | Sales |
-	|:-------------|:---------------|:---------------|:-----------|
-	| Product line | Health and beauty | Fashion accessories | Most sales |
-	| Product line | Sports and travel  | Health and beauty | Least sales |
-	| Payment method | Ewallet | Cash | Most sales |
-	| Payment method | Credit card | Ewallet | Least sales |
-	| Day | Wednesday | Saturday | Most sales |
-	| Day | Monday | Thursday | Least sales |
+### Analysis by gender in terms of revenue
 
-
-### Analysis by gender in terms of revenue ###
-
-	|              | Male           | Female         | Revenue |
-	|:-------------|:---------------|:---------------|:-----------|
-	| Product line | Health and beauty | Food and beverages | Highest revenue |
-	| Product line | Food and beverages  | Health and beauty | Least revenue |
-	| Payment method | Ewallet | Cash | Highest revenue |
-	| Payment method | Credit card | Credit card | Least revenue |
-	| Day | Saturday | Tuesday | Highest revenue |
-	| Day | Monday | Wednesday | Least revenue |
-
+|                | Male               | Female             | Revenue         |
+| :------------- | :----------------- | :----------------- | :-------------- |
+| Product line   | Health and beauty  | Food and beverages | Highest revenue |
+| Product line   | Food and beverages | Health and beauty  | Least revenue   |
+| Payment method | Ewallet            | Cash               | Highest revenue |
+| Payment method | Credit card        | Credit card        | Least revenue   |
+| Day            | Saturday           | Tuesday            | Highest revenue |
+| Day            | Monday             | Wednesday          | Least revenue   |
 
 For more details, refer the Power BI file.
